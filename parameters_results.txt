@@ -1,0 +1,113 @@
+Test 1
+
+hidden_size      = 128  # Number of neurons in hidden layer
+
+learning_rate    = 0.001 # Learning rate of the model
+training_steps   = 2000  # Number of batches during training
+batch_size       = 128    # Number of songs per batch
+time_steps        = 50    
+# Length of song snippet -- this is what is fed into the model
+
+Step 1400, Minibatch Loss= 1.5573, Training Accuracy= 0.433
+Saved generated song! seed ind: 7
+
+
+Test 2
+
+hidden_size      = 256  # Number of neurons in hidden layer
+
+learning_rate    = 0.00146 # Learning rate of the model
+training_steps   = 2000  # Number of batches during training
+batch_size       = 128    # Number of songs per batch
+time_steps        = 30    
+# Length of song snippet -- this is what is fed into the model
+
+
+Step 1900, Minibatch Loss= 0.8873, Training Accuracy= 0.633
+Saved generated song! seed ind: 4
+
+Test 3
+
+hidden_size      = 170  # Number of neurons in hidden layer
+
+learning_rate    = 0.00146 # Learning rate of the model
+training_steps   = 2000  # Number of batches during training
+batch_size       = 128    # Number of songs per batch
+time_steps        = 40    
+# Length of song snippet -- this is what is fed into the model
+
+
+Step 1900, Minibatch Loss= 1.0077, Training Accuracy= 0.508
+Saved generated song! seed ind: 11
+
+Test 4
+
+hidden_size      = 200                         # Number of neurons in hidden layer
+
+learning_rate    = 0.00146 # Learning rate of the model
+training_steps   = 2000  # Number of batches during training
+batch_size       = 128    # Number of songs per batch
+time_steps        = 70    # Length of song snippet -- this is what is fed into the model
+
+Step 1900, Minibatch Loss= 1.0206, Training Accuracy= 0.586
+Saved generated song! seed ind: 8
+
+
+Test 5
+
+hidden_size      = 312                         # Number of neurons in hidden layer
+
+learning_rate    = 0.00146 # Learning rate of the model
+training_steps   = 2000  # Number of batches during training
+batch_size       = 128    # Number of songs per batch
+time_steps        = 60    # Length of song snippet -- this is what is fed into the model
+
+Step 1900, Minibatch Loss= 1.1076, Training Accuracy= 0.516
+Saved generated song! seed ind: 5
+
+Test 6
+
+hidden_size      = 256                        # Number of neurons in hidden layer
+
+learning_rate    = 0.00146 # Learning rate of the model
+training_steps   = 1500  # Number of batches during training
+batch_size       = 128    # Number of songs per batch
+time_steps        = 65    # Length of song snippet -- this is what is fed into the model
+
+Step 1400, Minibatch Loss= 1.2040, Training Accuracy= 0.484
+Saved generated song! seed ind: 7
+
+
+Test 7
+hidden_size      = 200                        # Number of neurons in hidden layer
+
+learning_rate    = 0.00146 # Learning rate of the model
+training_steps   = 2000  # Number of batches during training
+batch_size       = 128    # Number of songs per batch
+time_steps        = 30    # Length of song snippet -- this is what is fed into the model
+
+Step 1900, Minibatch Loss= 0.6652, Training Accuracy= 0.625
+Saved generated song! seed ind: 9
+
+test 8
+hidden_size      = 240                      # Number of neurons in hidden layer
+
+learning_rate    = 0.00146 # Learning rate of the model
+training_steps   = 2000 # Number of batches during training
+batch_size       =     128 # Number of songs per batch
+time_steps        = 30    # Length of song snippet -- this is what is fed into the model
+
+Step 1900, Minibatch Loss= 0.8932, Training Accuracy= 0.750
+Saved generated song! seed ind: 19
+
+Test 9
+
+hidden_size      = 230                     # Number of neurons in hidden layer
+
+learning_rate    = 0.00146 # Learning rate of the model
+training_steps   = 2500 # Number of batches during training
+batch_size       =     128 # Number of songs per batch
+time_steps        = 30    # Length of song snippet -- this is what is fed into the model
+
+Step 2400, Minibatch Loss= 0.7451, Training Accuracy= 0.773
+Saved generated song! seed ind: 5
