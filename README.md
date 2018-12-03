@@ -22,8 +22,9 @@ J’ai utilisé une version de python 🐍  portable (version 3.6) sur Windows a
 #### Le dossier d'accès aux musiques 
 À la ligne 6 du fichier create_dataset.py : 𝑠𝑜𝑛𝑔𝑠 = 𝑔𝑙𝑜𝑏.𝑔𝑙𝑜𝑏 (𝑟′𝐸:\𝑊𝑃𝑦3670\𝑃𝑟𝑜𝑗𝑒𝑡\𝑢𝑡𝑖𝑙\𝑑𝑎𝑡𝑎\∗.𝑚𝑖𝑑 ∗ ′) 
 
-### 3) Lancer le fichier main.py (python main.py)
-
+### 3) Lancer le fichier main.py (python main.py)  
+Juste au cas où si ce problème intervient pour vous (Unknown Meta MIDI Event) :  
+Voici la solution https://github.com/vishnubob/python-midi/issues/33
 ### 4) Écouter la musique générée en fichier .midi dans le dossier generated avec le lecteur Windows Media Player de Windows
 
 ### 5) Optionnel : Convertir le fichier midi en mp3 avec la commande suivante :
@@ -31,5 +32,4 @@ J’ai utilisé une version de python 🐍  portable (version 3.6) sur Windows a
 𝑓𝑓𝑚𝑝𝑒𝑔 − 𝑖 "𝐸:\𝑊𝑃𝑦3670\𝑃𝑟𝑜𝑗𝑒𝑡\𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑒𝑑\𝑔𝑒𝑛_𝑠𝑜𝑛𝑔_0.𝑚𝑖𝑑" − 𝑣𝑛 − 𝑎𝑟 44100 − 𝑎𝑐 2 − 𝑎𝑏 192𝑘 − 𝑓 𝑚𝑝3 "𝐸:\𝑊𝑃𝑦3670\𝑃𝑟𝑜𝑗𝑒𝑡\𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑒𝑑\𝑜𝑢𝑡𝑝𝑢𝑡.𝑚𝑝3"
 ```  
 
-Juste au cas où si ce problème intervient pour vous (Unknown Meta MIDI Event) :  
-Voici la solution https://github.com/vishnubob/python-midi/issues/33
+
