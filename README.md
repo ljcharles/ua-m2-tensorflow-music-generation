@@ -6,11 +6,13 @@ Les instructions au fonctionnement de ce projet se trouve dans le fichier Rappor
 ## Pour lancer le projet :
 ### 1) Gérer les dépendances 
 Tout d’abord, il faut télécharger le paquet MIDI qui autorise la modification des fichiers .midi dans Python avec la commande suivante :  
-pip install git + https://github.com/vishnubob/python − midi@feature/python3  
+```bash
+pip install git+https://github.com/vishnubob/python−midi@feature/python3 
+```  
 Puis il faut s'assurer d'avoir Tensorflow (import tensorflow)  
 Si vous n'avez pas Tensorflow pas de panique :)  
-Solution 1) Utiliser Anaconda et taper la commande suivante : conda install tensorflow  
-Solution 2) Télécharger [WinPython 3.6](https://sourceforge.net/projects/winpython/files/WinPython_3.6/3.6.7.0/WinPython64-3.6.7.0Qt5.exe/download") et taper la commande suivante dans le WinPython Command Prompt : pip install tensorflow  
+Solution 1) Utiliser Anaconda et taper la commande suivante : ```bash conda install tensorflow```   
+Solution 2) Télécharger [WinPython 3.6](https://sourceforge.net/projects/winpython/files/WinPython_3.6/3.6.7.0/WinPython64-3.6.7.0Qt5.exe/download") et taper la commande suivante dans le WinPython Command Prompt : ```bash pip install tensorflow```  
 
 ### 2) Modifier les chemins d'accès aux fichiers avec des chemins absolus
 J’ai utilisé une version de python 🐍  portable (version 3.6) sur Windows avec Tensorflow sur ma clé USB pour les tests. Donc, pour faire fonctionner le projet, il faut modifier les chemins d’accès aux fichiers :
@@ -25,4 +27,6 @@ J’ai utilisé une version de python 🐍  portable (version 3.6) sur Windows a
 ### 4) Écouter la musique générée en fichier .midi dans le dossier generated avec le lecteur Windows Media Player de Windows
 
 ### 5) Optionnel : Convertir le fichier midi en mp3 avec la commande suivante :
+```bash
 𝑓𝑓𝑚𝑝𝑒𝑔 − 𝑖 "𝐸:\𝑊𝑃𝑦3670\𝑃𝑟𝑜𝑗𝑒𝑡\𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑒𝑑\𝑔𝑒𝑛_𝑠𝑜𝑛𝑔_0.𝑚𝑖𝑑" − 𝑣𝑛 − 𝑎𝑟 44100 − 𝑎𝑐 2 − 𝑎𝑏 192𝑘 − 𝑓 𝑚𝑝3 "𝐸:\𝑊𝑃𝑦3670\𝑃𝑟𝑜𝑗𝑒𝑡\𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑒𝑑\𝑜𝑢𝑡𝑝𝑢𝑡.𝑚𝑝3"
+```  
