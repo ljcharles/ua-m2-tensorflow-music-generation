@@ -9,10 +9,13 @@ Tout d’abord, il faut télécharger le paquet MIDI qui autorise la modificatio
 ```bash
 pip install git+https://github.com/vishnubob/python−midi@feature/python3 
 ```  
-Puis il faut s'assurer d'avoir Tensorflow (import tensorflow)  
+Puis il faut s'assurer d'avoir Tensorflow  
+```python
+import tensorflow
+```  
 Si vous n'avez pas Tensorflow pas de panique :)  
-Solution 1) Utiliser Anaconda et taper la commande suivante : ```bash conda install tensorflow```   
-Solution 2) Télécharger [WinPython 3.6](https://sourceforge.net/projects/winpython/files/WinPython_3.6/3.6.7.0/WinPython64-3.6.7.0Qt5.exe/download") et taper la commande suivante dans le WinPython Command Prompt : ```bash pip install tensorflow```  
+Solution 1) Utiliser Anaconda et taper la commande suivante : ```conda install tensorflow```   
+Solution 2) Télécharger [WinPython 3.6](https://sourceforge.net/projects/winpython/files/WinPython_3.6/3.6.7.0/WinPython64-3.6.7.0Qt5.exe/download") et taper la commande suivante dans le WinPython Command Prompt : ```pip install tensorflow```  
 
 ### 2) Modifier les chemins d'accès aux fichiers avec des chemins absolus
 J’ai utilisé une version de python 🐍  portable (version 3.6) sur Windows avec Tensorflow sur ma clé USB pour les tests. Donc, pour faire fonctionner le projet, il faut modifier les chemins d’accès aux fichiers :
