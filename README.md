@@ -30,3 +30,6 @@ J’ai utilisé une version de python 🐍  portable (version 3.6) sur Windows a
 ```bash
 𝑓𝑓𝑚𝑝𝑒𝑔 − 𝑖 "𝐸:\𝑊𝑃𝑦3670\𝑃𝑟𝑜𝑗𝑒𝑡\𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑒𝑑\𝑔𝑒𝑛_𝑠𝑜𝑛𝑔_0.𝑚𝑖𝑑" − 𝑣𝑛 − 𝑎𝑟 44100 − 𝑎𝑐 2 − 𝑎𝑏 192𝑘 − 𝑓 𝑚𝑝3 "𝐸:\𝑊𝑃𝑦3670\𝑃𝑟𝑜𝑗𝑒𝑡\𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑒𝑑\𝑜𝑢𝑡𝑝𝑢𝑡.𝑚𝑝3"
 ```  
+
+Juste au cas où si ce problème intervient pour vous (Unknown Meta MIDI Event) :  
+Voici la solution https://github.com/vishnubob/python-midi/issues/33
